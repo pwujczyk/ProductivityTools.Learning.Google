@@ -1,15 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ProductivityTools.Learning.Google.SumOfArrayElements;
 using System;
 
 namespace ProductivityTools.Learning.Google.SumOfTwoElements
 {
-    class SumOfElements
-    {
-        public Tuple<int?,int?> Each(int[] array, int searchValue)
-        {
-            return new Tuple<int, int>();
-        }
-    }
 
     [TestClass]
     public class UnitTest1
@@ -25,6 +19,11 @@ namespace ProductivityTools.Learning.Google.SumOfTwoElements
             var r=c.Each(a, result);
             Assert.AreEqual(null, r.Item1);
             Assert.AreEqual(null, r.Item2);
+
+            r = c.Each(b, result);
+            Assert.AreEqual(4, r.Item1);
+            Assert.AreEqual(4, r.Item2);
+
         }
 
     }
