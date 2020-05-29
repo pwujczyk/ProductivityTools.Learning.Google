@@ -10,7 +10,8 @@ namespace ProductivityTools.Learning.Google.SumOfArrayElements
         {
             Console.WriteLine("Hello");
             Tests t = new Tests();
-            t.TestMethod1();
+            t.ForeachElementTest();
+            t.BinarySearchTest();
             Console.ReadLine();
         }
     }
