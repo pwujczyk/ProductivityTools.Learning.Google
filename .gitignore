@@ -1,0 +1,7 @@
+.vs/
+obj/
+bin/
+ProductivityTools.Learning.OAuth.Client/wwwroot/lib/
+**/wwwroot/lib/
+**/node_modules/*
+tempkey.rsa
