@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Numerics;
 
-namespace ProductivityTools.Learning.Google.A1.Structures
+namespace ProductivityTools.Learning.Google.A1.Sort
 {
     class Program
     {
