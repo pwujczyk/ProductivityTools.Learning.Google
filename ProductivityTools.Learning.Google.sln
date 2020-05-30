@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.A1.QuickFind", "ProductivityTools.Learning.Google.A1.QuickFind\ProductivityTools.Learning.Google.A1.QuickFind.csproj", "{19F6C86E-664C-4ABA-9FDE-B3F247C34A5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.A1.Structures", "ProductivityTools.Learning.Google.A1.Structures\ProductivityTools.Learning.Google.A1.Structures.csproj", "{C44317EF-732F-4BA0-A0E8-6293ECA4E32E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{19F6C86E-664C-4ABA-9FDE-B3F247C34A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19F6C86E-664C-4ABA-9FDE-B3F247C34A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19F6C86E-664C-4ABA-9FDE-B3F247C34A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44317EF-732F-4BA0-A0E8-6293ECA4E32E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44317EF-732F-4BA0-A0E8-6293ECA4E32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44317EF-732F-4BA0-A0E8-6293ECA4E32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44317EF-732F-4BA0-A0E8-6293ECA4E32E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
