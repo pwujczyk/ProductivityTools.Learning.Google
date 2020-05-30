@@ -7,7 +7,7 @@ namespace ProductivityTools.Learning.Google.A1.QuickFind
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            QF qf = new QF(4);
+            QuickFindAlghoritm qf = new QuickFindAlghoritm(4);
             qf.PrintTable();
             Console.WriteLine(qf.Connected(1, 2));
 
