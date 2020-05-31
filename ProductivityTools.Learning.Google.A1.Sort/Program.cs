@@ -9,16 +9,19 @@ namespace ProductivityTools.Learning.Google.A1.Sort
     {
         static void Main(string[] args)
         {
+            int tablesize = 100000;
             Console.WriteLine("Hello World!");
-            int[] table = new int[100000];
+            int[] table = new int[tablesize];
             for (int i = 0; i < table.Length; i++)
             {
-                table[i] = new Random().Next(10);
+                table[i] = new Random().Next(tablesize);
             }
-            Print(table);
+            bool printTable = false; ;
+            if (printTable) { Print(table); }
 
-           SortAndPrint(GetTableCopy(table), new Bubble());
-           SortAndPrint(GetTableCopy(table), new SelectionSort());
+            SortAndPrint(GetTableCopy(table), new BubbleSort(), printTable);
+            SortAndPrint(GetTableCopy(table), new SelectionSort(), printTable);
+            SortAndPrint(GetTableCopy(table), new InsertionSort(), printTable);
         }
 
         static int[] GetTableCopy(int[] table)
@@ -31,23 +34,21 @@ namespace ProductivityTools.Learning.Google.A1.Sort
             return result;
         }
 
-        static void SortAndPrint(int[]table, ISort sorter)
+        static void SortAndPrint(int[] table, ISort sorter, bool print)
         {
 
             Console.WriteLine("===");
             Console.WriteLine("Before and after sort:");
-            // Print(table);
+            if (print) { Print(table); }
             var x = Stopwatch.StartNew();
             var r = sorter.Sort(table);
             x.Stop();
-            Console.WriteLine(x.Elapsed);
-           // Print(table);
-            Console.WriteLine($"Amount{r}");
+            if (print) { Print(table); }
+            Console.WriteLine($"Amount{r}, time {x.Elapsed}");
         }
 
         static void Print(int[] table)
         {
-            
             foreach (var item in table)
             {
                 Console.Write(item);

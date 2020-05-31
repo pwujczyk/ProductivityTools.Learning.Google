@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ProductivityTools.Learning.Google.A1.Sort
 {
-    class Bubble : ISort
+    class BubbleSort : ISort
     {
         public int Sort(int[] a)
         {
