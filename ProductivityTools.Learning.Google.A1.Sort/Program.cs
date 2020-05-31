@@ -16,12 +16,13 @@ namespace ProductivityTools.Learning.Google.A1.Sort
             {
                 table[i] = new Random().Next(tablesize);
             }
-            bool printTable = false; ;
+            bool printTable = false;
             if (printTable) { Print(table); }
 
             SortAndPrint(GetTableCopy(table), new BubbleSort(), printTable);
             SortAndPrint(GetTableCopy(table), new SelectionSort(), printTable);
             SortAndPrint(GetTableCopy(table), new InsertionSort(), printTable);
+            SortAndPrint(GetTableCopy(table), new ShellSort(), printTable);
         }
 
         static int[] GetTableCopy(int[] table)
