@@ -9,7 +9,7 @@ namespace ProductivityTools.Learning.Google.A1.Sort
     {
         static void Main(string[] args)
         {
-            int tablesize = 100000;
+            int tablesize = 1000;
             Console.WriteLine("Hello World!");
             int[] table = new int[tablesize];
             for (int i = 0; i < table.Length; i++)
@@ -19,10 +19,12 @@ namespace ProductivityTools.Learning.Google.A1.Sort
             bool printTable = false;
             if (printTable) { Print(table); }
 
-            SortAndPrint(GetTableCopy(table), new BubbleSort(), printTable);
-            SortAndPrint(GetTableCopy(table), new SelectionSort(), printTable);
-            SortAndPrint(GetTableCopy(table), new InsertionSort(), printTable);
-            SortAndPrint(GetTableCopy(table), new ShellSort(), printTable);
+            SortAndPrint(GetTableCopy(table), new BubbleSort(), nameof(BubbleSort), printTable); ;
+            SortAndPrint(GetTableCopy(table), new SelectionSort(), nameof(SelectionSort), printTable);
+            SortAndPrint(GetTableCopy(table), new InsertionSort(), nameof(InsertionSort), printTable);
+            SortAndPrint(GetTableCopy(table), new ShellSort(), nameof(ShellSort),printTable);
+            SortAndPrint(GetTableCopy(table), new MergeSort(), nameof(MergeSort), printTable);
+            Console.Read();
         }
 
         static int[] GetTableCopy(int[] table)
@@ -35,11 +37,11 @@ namespace ProductivityTools.Learning.Google.A1.Sort
             return result;
         }
 
-        static void SortAndPrint(int[] table, ISort sorter, bool print)
+        static void SortAndPrint(int[] table, ISort sorter, string name, bool print)
         {
 
             Console.WriteLine("===");
-            Console.WriteLine("Before and after sort:");
+            Console.WriteLine($"Before and after sort:{name}");
             if (print) { Print(table); }
             var x = Stopwatch.StartNew();
             var r = sorter.Sort(table);
