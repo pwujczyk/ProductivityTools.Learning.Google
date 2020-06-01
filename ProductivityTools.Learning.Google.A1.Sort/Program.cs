@@ -9,7 +9,7 @@ namespace ProductivityTools.Learning.Google.A1.Sort
     {
         static void Main(string[] args)
         {
-            int tablesize = 1000;
+            int tablesize = 10;
             Console.WriteLine("Hello World!");
             int[] table = new int[tablesize];
             for (int i = 0; i < table.Length; i++)
@@ -24,7 +24,7 @@ namespace ProductivityTools.Learning.Google.A1.Sort
             SortAndPrint(GetTableCopy(table), new InsertionSort(), nameof(InsertionSort), printTable);
             SortAndPrint(GetTableCopy(table), new ShellSort(), nameof(ShellSort),printTable);
             SortAndPrint(GetTableCopy(table), new MergeSort(), nameof(MergeSort), printTable);
-            SortAndPrint(GetTableCopy(table), new MergeSort(), nameof(QuickSort), printTable);
+            SortAndPrint(GetTableCopy(table), new QuickSort(), nameof(QuickSort), printTable);
             Console.Read();
         }
 

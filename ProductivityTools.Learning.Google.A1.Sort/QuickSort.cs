@@ -32,11 +32,13 @@ namespace ProductivityTools.Learning.Google.A1.Sort
                 while (a[i] < a[p])
                 {
                     i++;
+                    if (i == high) break;
                 }
 
                 while (a[p] < a[j])
                 {
                     j--;
+                    if (i == low) break;
                 }
 
                 if(i>=j)//?>=
@@ -44,22 +46,35 @@ namespace ProductivityTools.Learning.Google.A1.Sort
                     break;
                 }
 
-                swap(a[i], a[j]);
+                swap(i, j);
+                i++;
+                j--;
             }
-            swap(a[0], a[i]);
+            swap(low, i);
             return i;
         }
 
         public void Sort(int[] a, int low, int high)
         {
+            if(low>=high) { return; }
             int partitionPoint = Partition(a, low, high);
 
-            Sort(a, 0, partitionPoint);//?-1
+            Sort(a, 0, partitionPoint-1);//?-1
             Sort(a, partitionPoint + 1, high);
         }
 
         public int Sort(int[] a)
         {
+            a[0] = 4;
+            a[1] = 5;
+            a[2] = 5;
+            a[3] = 5;
+            a[4] = 6;
+            a[5] = 9;
+            a[6] = 2;
+            a[7] = 5;
+            a[8] = 4;
+            a[9] = 2;
             Sort(a, 0, a.Length - 1);
 
             return 1;
