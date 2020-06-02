@@ -29,10 +29,10 @@ namespace ProductivityTools.Learning.Google.A1.Sort
 
             while (true)
             {
-                while (a[i] < a[p])
+                while (a[ i] < a[p])
                 {
                     i++;
-                    if (i == high) break;
+                    if (i >= high) break;
                 }
 
                 while (a[p] < a[j])
@@ -50,7 +50,7 @@ namespace ProductivityTools.Learning.Google.A1.Sort
                 i++;
                 j--;
             }
-            swap(low, i);
+            swap(low,j);
             return i;
         }
 
