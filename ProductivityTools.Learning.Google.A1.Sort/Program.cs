@@ -7,8 +7,14 @@ namespace ProductivityTools.Learning.Google.A1.Sort
 {
     class Program
     {
+
+        static dynamic pawel()
+        {
+            return new { a=new int[0], b=new int[5] };
+        }
         static void Main(string[] args)
         {
+            dynamic x = pawel();
             int tablesize = 10;
             Console.WriteLine("Hello World!");
             int[] table = new int[tablesize];

@@ -29,7 +29,7 @@ namespace ProductivityTools.Learning.Google.A1.Sort
 
             while (true)
             {
-                while (a[ i] < a[p])
+                while (a[i] < a[p])
                 {
                     i++;
                     if (i >= high) break;
