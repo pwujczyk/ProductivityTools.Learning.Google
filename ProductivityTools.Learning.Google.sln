@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.Google.A1.Sort", "ProductivityTools.Learning.Google.A1.Sort\ProductivityTools.Learning.Google.A1.Sort.csproj", "{EC185A65-F227-4512-BFE9-45840E007942}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.PriorityQuene", "ProductivityTools.Learning.Google.PriorityQuene\ProductivityTools.Learning.Google.PriorityQuene.csproj", "{2E60940F-EC19-4FA2-B501-5709166E3E10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.Google.PriorityQuene", "ProductivityTools.Learning.Google.PriorityQuene\ProductivityTools.Learning.Google.PriorityQuene.csproj", "{2E60940F-EC19-4FA2-B501-5709166E3E10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.HS", "ProductivityTools.Learning.Google.HS\ProductivityTools.Learning.Google.HS.csproj", "{6CA29375-1835-4B94-96C8-682763E42682}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{2E60940F-EC19-4FA2-B501-5709166E3E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E60940F-EC19-4FA2-B501-5709166E3E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E60940F-EC19-4FA2-B501-5709166E3E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA29375-1835-4B94-96C8-682763E42682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA29375-1835-4B94-96C8-682763E42682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA29375-1835-4B94-96C8-682763E42682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA29375-1835-4B94-96C8-682763E42682}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
