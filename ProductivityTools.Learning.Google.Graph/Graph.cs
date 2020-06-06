@@ -13,6 +13,7 @@ namespace ProductivityTools.Learning.Google.Graph
         public Graph(int v)
         {
             this.V = v;
+            this.adj = new List<int>[v];
             for (int i = 0; i < V; i++)
             {
                 this.adj[i]=new List<int>();
