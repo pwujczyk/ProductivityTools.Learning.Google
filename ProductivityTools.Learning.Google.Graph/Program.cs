@@ -8,7 +8,7 @@ namespace ProductivityTools.Learning.Google.Graph
         {
             Console.WriteLine("Hello World!");
 
-            Graph g = new Graph(5);
+            UndirectedGraph g = new UndirectedGraph(5);
             g.AddEdge(0, 1);
             g.AddEdge(0, 4);
             g.AddEdge(1, 2);

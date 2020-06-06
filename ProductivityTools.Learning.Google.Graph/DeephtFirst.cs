@@ -7,11 +7,11 @@ namespace ProductivityTools.Learning.Google.Graph
 {
     class DeephtFirst
     {
-        Graph g;
+        UndirectedGraph g;
         private bool[] marked;
         private int[] edgeTo;
 
-        public DeephtFirst(Graph graph)
+        public DeephtFirst(UndirectedGraph graph)
         {
             this.g = graph;
             marked = new bool[this.g.adj.Length];

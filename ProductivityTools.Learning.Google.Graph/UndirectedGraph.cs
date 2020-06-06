@@ -5,12 +5,12 @@ using System.Text;
 
 namespace ProductivityTools.Learning.Google.Graph
 {
-    class Graph
+    class UndirectedGraph
     {
         private int V;
         public List<int>[] adj;
 
-        public Graph(int v)
+        public UndirectedGraph(int v)
         {
             this.V = v;
             this.adj = new List<int>[v];

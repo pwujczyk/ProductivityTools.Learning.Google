@@ -6,12 +6,12 @@ namespace ProductivityTools.Learning.Google.Graph
 {
     class BreathFirst
     {
-        Graph Graph;
+        UndirectedGraph Graph;
         Queue<int> Queue = new Queue<int>();
         bool[] visited;
         int[] from;
 
-        public BreathFirst(Graph g)
+        public BreathFirst(UndirectedGraph g)
         {
             this.Graph = g;
             from = new int[g.adj.Length];
@@ -22,7 +22,6 @@ namespace ProductivityTools.Learning.Google.Graph
         public void BreathFirstStep()
         {
             int node = 0;
-            var connections=this.Graph.adj[node];
             this.visited[node] = true;
             this.from[node] = 0;
             this.Queue.Enqueue(node);
