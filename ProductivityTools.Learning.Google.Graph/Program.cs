@@ -18,6 +18,9 @@ namespace ProductivityTools.Learning.Google.Graph
 
             DeephtFirst dp = new DeephtFirst(g);
             dp.DeepFirstSearchStep();
+
+            BreathFirst bf = new BreathFirst(g);
+            bf.BreathFirstStep();
         }
     }
 }
