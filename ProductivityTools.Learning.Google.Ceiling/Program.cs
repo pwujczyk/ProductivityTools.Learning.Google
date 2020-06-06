@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace ProductivityTools.Learning.Google.Ceiling
 {
@@ -27,6 +28,27 @@ namespace ProductivityTools.Learning.Google.Ceiling
             }
             throw new Exception("Something went wrong");
         }
+
+        public void TreeTraverse(Queue q)
+        {
+            if (this.left!=null)
+            {
+                this.left.TreeTraverse(q);
+            }
+            q.Enqueue(this.value);
+            if(this.right!=null)
+            {
+                this.right.TreeTraverse(q);
+            }
+        }
+
+        public Queue TreeTraverse()
+        {
+            Queue queue = new Queue();
+            TreeTraverse(queue);
+            return queue;
+
+        }
     }
 
     class Program
@@ -42,6 +64,7 @@ namespace ProductivityTools.Learning.Google.Ceiling
 
 
             var r=root.FindFloor(60);
+            var traverse = root.TreeTraverse();
             Console.WriteLine("Hello World!");
         }
     }
