@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.Ceiling", "ProductivityTools.Learning.Google.Ceiling\ProductivityTools.Learning.Google.Ceiling.csproj", "{9F7F4480-EDE8-4063-B23C-6E04733ABDC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.Graph", "ProductivityTools.Learning.Google.Graph\ProductivityTools.Learning.Google.Graph.csproj", "{B8F9094A-1A63-4D74-A6DD-6C923242F373}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9F7F4480-EDE8-4063-B23C-6E04733ABDC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F7F4480-EDE8-4063-B23C-6E04733ABDC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F7F4480-EDE8-4063-B23C-6E04733ABDC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F9094A-1A63-4D74-A6DD-6C923242F373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F9094A-1A63-4D74-A6DD-6C923242F373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F9094A-1A63-4D74-A6DD-6C923242F373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F9094A-1A63-4D74-A6DD-6C923242F373}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
