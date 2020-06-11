@@ -18,6 +18,7 @@ namespace ProductivityTools.Learning.Google.PriorityQuene
         {
             var x = this.Min();
             this.Remove(x);
+            
         }
 
         internal void AddMax(int z)

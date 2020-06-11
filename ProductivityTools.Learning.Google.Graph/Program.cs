@@ -14,7 +14,6 @@ namespace ProductivityTools.Learning.Google.Graph
             g.AddEdge(1, 2);
             g.AddEdge(2, 3);
             g.AddEdge(1, 4);
-            g.AddEdge(2, 3);
 
             DeephtFirst dp = new DeephtFirst(g);
             dp.DeepFirstSearchStep();

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Xml.Schema;
 
@@ -9,6 +10,7 @@ namespace ProductivityTools.Learning.Google.A1.Sort
     {
         public int Sort(int[] a)
         {
+            Action a = () => ReturnTypeEncoder;
             int minposition = 0;
             int result = 0;
             bool swaped = true;

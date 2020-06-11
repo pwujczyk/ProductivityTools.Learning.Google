@@ -18,6 +18,7 @@ namespace ProductivityTools.Learning.Google.Graph
             edgeTo = new int [this.g.adj.Length];
         }
 
+        //tutaj powinienem przekazac w parametrze 0, poniewaz dla grafow rozlacznych nie zrobi przejscia
         public void DeepFirstSearchStep()
         {
             List<int> vertex = g.adj[0];
