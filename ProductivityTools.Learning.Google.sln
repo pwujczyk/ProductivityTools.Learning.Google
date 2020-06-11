@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.MST", "ProductivityTools.Learning.Google.MST\ProductivityTools.Learning.Google.MST.csproj", "{565F99A2-6DE8-411D-B6B3-EF4E51D389AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.Taski", "ProductivityTools.Learning.Google.Taski\ProductivityTools.Learning.Google.Taski.csproj", "{D66A66A1-DB66-4BF3-A83E-9B443A682A28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{565F99A2-6DE8-411D-B6B3-EF4E51D389AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{565F99A2-6DE8-411D-B6B3-EF4E51D389AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{565F99A2-6DE8-411D-B6B3-EF4E51D389AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66A66A1-DB66-4BF3-A83E-9B443A682A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66A66A1-DB66-4BF3-A83E-9B443A682A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66A66A1-DB66-4BF3-A83E-9B443A682A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66A66A1-DB66-4BF3-A83E-9B443A682A28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
