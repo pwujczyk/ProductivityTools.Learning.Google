@@ -10,7 +10,7 @@ namespace ProductivityTools.Learning.Google.A1.Sort
     {
         public int Sort(int[] a)
         {
-            Action a = () => ReturnTypeEncoder;
+            
             int minposition = 0;
             int result = 0;
             bool swaped = true;

@@ -6,6 +6,7 @@ namespace ProductivityTools.Learning.Google.Taski
     {
         static void Main(string[] args)
         {
+            new AddNumbers().Work();
             Console.WriteLine("Hello World!");
         }
     }
