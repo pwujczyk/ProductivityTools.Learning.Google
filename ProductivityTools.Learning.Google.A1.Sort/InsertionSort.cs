@@ -6,7 +6,7 @@ namespace ProductivityTools.Learning.Google.A1.Sort
 {
     class InsertionSort : ISort
     {
-        public int Sort(int[] a)
+        public void Sort(int[] a)
         {
             var result = 0; 
             for (int i = 1; i < a.Length; i++)

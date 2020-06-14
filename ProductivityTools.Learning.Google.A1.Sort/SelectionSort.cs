@@ -8,7 +8,7 @@ namespace ProductivityTools.Learning.Google.A1.Sort
 {
     class SelectionSort : ISort
     {
-        public int Sort(int[] a)
+        public void Sort(int[] a)
         {
             
             int minposition = 0;
@@ -31,7 +31,6 @@ namespace ProductivityTools.Learning.Google.A1.Sort
                 }
                 minposition++; 
             }
-            return result;
         }
     }
 }

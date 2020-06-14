@@ -2,6 +2,6 @@
 {
     interface ISort
     {
-        int Sort(int[] a);
+        void Sort(int[] a);
     }
 }

@@ -63,7 +63,7 @@ namespace ProductivityTools.Learning.Google.A1.Sort
             Sort(a, partitionPoint + 1, high);
         }
 
-        public int Sort(int[] a)
+        public void Sort(int[] a)
         {
             a[0] = 4;
             a[1] = 5;
@@ -76,8 +76,6 @@ namespace ProductivityTools.Learning.Google.A1.Sort
             a[8] = 4;
             a[9] = 2;
             Sort(a, 0, a.Length - 1);
-
-            return 1;
         }
     }
 }

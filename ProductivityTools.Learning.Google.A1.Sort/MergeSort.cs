@@ -66,7 +66,7 @@ namespace ProductivityTools.Learning.Google.A1.Sort
             Merge(start, middle, end);
         }
 
-        public int Sort(int[] a)
+        public void Sort(int[] a)
         {
             this.A1 = a;
             ////for (int i = 0; i < 10; i++)
@@ -88,9 +88,6 @@ namespace ProductivityTools.Learning.Google.A1.Sort
             this.A2 = new int[this.A1.Length];
 
             Sort(0, a.Length - 1);
-
-            return 1;
-
         }
 
         void Print()
