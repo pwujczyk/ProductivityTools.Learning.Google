@@ -15,13 +15,7 @@ namespace ProductivityTools.Learning.Google.A1.Sort
             {
                 this.A2[i] = this.A1[i];
             }
-           // Console.WriteLine($"{start}-{middle}-{end}");
             this.Print();
-            //int[] workingarray = new int[a.Length];
-            //for (int i = 0; i < a.Length; i++)
-            //{
-            //    workingarray[i] = a[i];
-            //}
 
             int low = start;
             int high = end;

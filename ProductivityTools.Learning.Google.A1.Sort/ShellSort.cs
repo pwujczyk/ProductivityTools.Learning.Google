@@ -6,7 +6,7 @@ namespace ProductivityTools.Learning.Google.A1.Sort
 {
     class ShellSort : ISort
     {
-        public int Sort(int[] a)
+        public void Sort(int[] a)
         {
             int result = 0;
             int n = a.Length;
@@ -32,8 +32,6 @@ namespace ProductivityTools.Learning.Google.A1.Sort
                 }
                 h = h / 3;
             }
-
-            return result;
         }
     }
 }

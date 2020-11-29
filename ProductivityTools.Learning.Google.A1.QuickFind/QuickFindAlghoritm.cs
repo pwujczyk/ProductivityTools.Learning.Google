@@ -16,7 +16,7 @@ namespace ProductivityTools.Learning.Google.A1.QuickFind
             {
                 if (table[i] == table[from])
                 {
-                    table[from] = table[to];
+                    table[i] = table[to];
                 }
             }
         }
