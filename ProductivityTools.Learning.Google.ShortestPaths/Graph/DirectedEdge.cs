@@ -17,7 +17,5 @@ namespace ProductivityTools.Learning.Google.Graph.Dijkstra
             this.To = to;
             this.Weight = weight;
         }
-
-  
     }
 }

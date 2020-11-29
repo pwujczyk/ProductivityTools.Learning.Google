@@ -15,13 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.Google.HS", "ProductivityTools.Learning.Google.HS\ProductivityTools.Learning.Google.HS.csproj", "{6CA29375-1835-4B94-96C8-682763E42682}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.Ceiling", "ProductivityTools.Learning.Google.Ceiling\ProductivityTools.Learning.Google.Ceiling.csproj", "{9F7F4480-EDE8-4063-B23C-6E04733ABDC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.Google.Ceiling", "ProductivityTools.Learning.Google.Ceiling\ProductivityTools.Learning.Google.Ceiling.csproj", "{9F7F4480-EDE8-4063-B23C-6E04733ABDC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.Graph", "ProductivityTools.Learning.Google.Graph\ProductivityTools.Learning.Google.Graph.csproj", "{B8F9094A-1A63-4D74-A6DD-6C923242F373}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.Google.Graph", "ProductivityTools.Learning.Google.Graph\ProductivityTools.Learning.Google.Graph.csproj", "{B8F9094A-1A63-4D74-A6DD-6C923242F373}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.MST", "ProductivityTools.Learning.Google.MST\ProductivityTools.Learning.Google.MST.csproj", "{565F99A2-6DE8-411D-B6B3-EF4E51D389AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.Google.MST", "ProductivityTools.Learning.Google.MST\ProductivityTools.Learning.Google.MST.csproj", "{565F99A2-6DE8-411D-B6B3-EF4E51D389AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.Taski", "ProductivityTools.Learning.Google.Taski\ProductivityTools.Learning.Google.Taski.csproj", "{D66A66A1-DB66-4BF3-A83E-9B443A682A28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.Google.Taski", "ProductivityTools.Learning.Google.Taski\ProductivityTools.Learning.Google.Taski.csproj", "{D66A66A1-DB66-4BF3-A83E-9B443A682A28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.ShortestPaths", "ProductivityTools.Learning.Google.ShortestPaths\ProductivityTools.Learning.Google.ShortestPaths.csproj", "{EF1FCA02-65A1-452F-8644-63A83DECEB80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{D66A66A1-DB66-4BF3-A83E-9B443A682A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D66A66A1-DB66-4BF3-A83E-9B443A682A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D66A66A1-DB66-4BF3-A83E-9B443A682A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1FCA02-65A1-452F-8644-63A83DECEB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1FCA02-65A1-452F-8644-63A83DECEB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1FCA02-65A1-452F-8644-63A83DECEB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1FCA02-65A1-452F-8644-63A83DECEB80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
