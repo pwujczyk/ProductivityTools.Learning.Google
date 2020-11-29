@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ProductivityTools.Learning.Google.PriorityQuene
 {
-    class PriorityQuene:List<int>
+    public class PriorityQuene:List<int>
     {
         private readonly int Max;
 
@@ -14,11 +14,11 @@ namespace ProductivityTools.Learning.Google.PriorityQuene
             this.Max = max;
         }
 
-        public void RemoveMin()
+        public int RemoveMin()
         {
             var x = this.Min();
             this.Remove(x);
-            
+            return x;
         }
 
         internal void AddMax(int z)

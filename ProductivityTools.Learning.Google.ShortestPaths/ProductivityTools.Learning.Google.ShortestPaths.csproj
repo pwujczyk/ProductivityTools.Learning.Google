@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProductivityTools.Learning.Google.PriorityQuene\ProductivityTools.Learning.Google.PriorityQuene.csproj" />
+  </ItemGroup>
+
 </Project>
