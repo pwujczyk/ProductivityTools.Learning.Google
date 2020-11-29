@@ -7,7 +7,7 @@ namespace ProductivityTools.Learning.Google.Graph.Dijkstra
 {
     class EdgeWeigthDigrapth
     {
-        List<DirectedEdge>[] Vertexes;
+        public List<DirectedEdge>[] Vertexes;
         public int Size => Vertexes.Length;
 
         public EdgeWeigthDigrapth(int vertexes)
