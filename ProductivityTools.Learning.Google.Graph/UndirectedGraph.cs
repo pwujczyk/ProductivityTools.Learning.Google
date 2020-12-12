@@ -8,22 +8,22 @@ namespace ProductivityTools.Learning.Google.Graph
     class UndirectedGraph
     {
         private int V;
-        public List<int>[] adj;
+        public List<int>[] Edges;
 
         public UndirectedGraph(int v)
         {
             this.V = v;
-            this.adj = new List<int>[v];
+            this.Edges = new List<int>[v];
             for (int i = 0; i < V; i++)
             {
-                this.adj[i]=new List<int>();
+                this.Edges[i]=new List<int>();
             }
         }
 
         public void AddEdge(int v, int w)
         {
-            adj[v].Add(w);
-            adj[w].Add(v);
+            Edges[v].Add(w);
+            Edges[w].Add(v);
         }
     }
 }

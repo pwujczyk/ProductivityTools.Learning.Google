@@ -25,11 +25,11 @@ namespace ProductivityTools.Learning.Google.ShortestPaths
 
 
             int startpoint = 0;
-            ShortestPath sp = new ShortestPath(edgeWeigthDigrapth, startpoint);
-            for (int i = 0; i < edgeWeigthDigrapth.Size; i++)
-            {
-                Console.WriteLine($"Distance from{startpoint} to {i} is {sp.distTo(i)}");
-            }
+            //ShortestPath sp = new ShortestPath(edgeWeigthDigrapth, startpoint);
+            //for (int i = 0; i < edgeWeigthDigrapth.Size; i++)
+            //{
+            //    Console.WriteLine($"Distance from{startpoint} to {i} is {sp.distTo(i)}");
+            //}
 
             Dijkstra d = new Dijkstra(edgeWeigthDigrapth, 1);
         }

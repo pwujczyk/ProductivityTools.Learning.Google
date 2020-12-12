@@ -12,14 +12,12 @@ namespace ProductivityTools.Learning.Google.A1.Sort
         {
             
             int minposition = 0;
-            int result = 0;
             bool swaped = true;
             while (swaped)
             {
                 swaped = false;
                 for (int i = minposition + 1; i < a.Length; i++)
                 {
-                    result++;
                     if (a[i] < a[minposition])
                     {
                         swaped = true;

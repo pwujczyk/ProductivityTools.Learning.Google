@@ -22,15 +22,15 @@ namespace ProductivityTools.Learning.Google.A1.Sort
             {
                 table[i] = new Random().Next(tablesize);
             }
-            bool printTable = false;
+            bool printTable = true;
             if (printTable) { Print(table); }
 
-            SortAndPrint(GetTableCopy(table), new BubbleSort(), nameof(BubbleSort), printTable); ;
-            SortAndPrint(GetTableCopy(table), new SelectionSort(), nameof(SelectionSort), printTable);
-            SortAndPrint(GetTableCopy(table), new InsertionSort(), nameof(InsertionSort), printTable);
-            SortAndPrint(GetTableCopy(table), new ShellSort(), nameof(ShellSort),printTable);
+            //SortAndPrint(GetTableCopy(table), new BubbleSort(), nameof(BubbleSort), printTable); ;
+            //SortAndPrint(GetTableCopy(table), new SelectionSort(), nameof(SelectionSort), printTable);
+            //SortAndPrint(GetTableCopy(table), new InsertionSort(), nameof(InsertionSort), printTable);
+            //SortAndPrint(GetTableCopy(table), new ShellSort(), nameof(ShellSort),printTable);
             SortAndPrint(GetTableCopy(table), new MergeSort(), nameof(MergeSort), printTable);
-            SortAndPrint(GetTableCopy(table), new QuickSort(), nameof(QuickSort), printTable);
+          //  SortAndPrint(GetTableCopy(table), new QuickSort(), nameof(QuickSort), printTable);
             Console.Read();
         }
 
@@ -51,10 +51,10 @@ namespace ProductivityTools.Learning.Google.A1.Sort
             Console.WriteLine($"Before and after sort:{name}");
             if (print) { Print(table); }
             var x = Stopwatch.StartNew();
-            var r = sorter.Sort(table);
+            sorter.Sort(table);
             x.Stop();
             if (print) { Print(table); }
-            Console.WriteLine($"Amount{r}, time {x.Elapsed}");
+            Console.WriteLine($"Amount, time {x.Elapsed}");
         }
 
         static void Print(int[] table)

@@ -17,35 +17,45 @@ namespace ProductivityTools.Learning.Google.A1.Sort
             }
             this.Print();
 
-            int low = start;
-            int high = end;
+            int leftIterator = start;
+            int rightIterator = middle;
+            int resultIterator = start;
 
-
-            int x = low, y = middle + 1; 
-
-            for (int i = start; i <= end; i++)
+            while (resultIterator <= end) //?
             {
-                if (x > middle)
-                {
-                    this.A1[i] = this.A2[y];
-                    y++;
-                }
-                else if (y > high)
-                {
-                    this.A1[i] = this.A2[x];
-                    x++;
-                }
-                else if (this.A2[x] > this.A2[y])
-                {
-                    this.A1[i] = this.A2[y];
-                    y++;
-                }
-                else
-                {
-                    this.A1[i] = this.A2[x];
-                    x++;
-                }
-            }
+                
+        }
+
+
+            // int low = start;
+            // int high = end;
+
+
+            //int x = low, y = middle + 1; 
+
+            //for (int i = start; i <= end; i++)
+            //{
+            //    if (x > middle)
+            //    {
+            //        this.A1[i] = this.A2[y];
+            //        y++;
+            //    }
+            //    else if (y > high)
+            //    {
+            //        this.A1[i] = this.A2[x];
+            //        x++;
+            //    }
+            //    else if (this.A2[x] > this.A2[y])
+            //    {
+            //        this.A1[i] = this.A2[y];
+            //        y++;
+            //    }
+            //    else
+            //    {
+            //        this.A1[i] = this.A2[x];
+            //        x++;
+            //    }
+            //}
             this.Print();
         }
 
@@ -86,21 +96,21 @@ namespace ProductivityTools.Learning.Google.A1.Sort
 
         void Print()
         {
-            //for (int i = 0; i < this.A1.Length; i++)
-            //{
-            //    Console.Write(i);
-            //}
-            //Console.WriteLine();
-            //foreach (var item in this.A1)
+            for (int i = 0; i < this.A1.Length; i++)
+            {
+                Console.Write(i);
+            }
+            Console.WriteLine();
+            foreach (var item in this.A1)
+            {
+                Console.Write(item);
+            }
+            // Console.WriteLine();
+            //foreach (var item in this.A2)
             //{
             //    Console.Write(item);
             //}
-            //// Console.WriteLine();
-            ////foreach (var item in this.A2)
-            ////{
-            ////    Console.Write(item);
-            ////}
-            //Console.WriteLine();
+            Console.WriteLine();
         }
     }
 }

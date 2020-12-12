@@ -23,35 +23,35 @@ namespace ProductivityTools.Learning.Google.A1.Sort
             //32424324
             //low=0;high=8
 
-            int p = low;//partition point//3
-            int i = low + 1;
-            int j = high;
+            int partitionPoint = low;//partition point//3
+            int leftIterator = low + 1;
+            int rightIterator = high;
 
             while (true)
             {
-                while (a[i] < a[p])
+                while (a[leftIterator] < a[partitionPoint])
                 {
-                    i++;
-                    if (i >= high) break;
+                    leftIterator++;
+                    if (leftIterator >= high) break;
                 }
 
-                while (a[p] < a[j])
+                while (a[partitionPoint] < a[rightIterator])
                 {
-                    j--;
-                    if (i == low) break;
+                    rightIterator--;
+                    if (leftIterator == low) break;
                 }
 
-                if(i>=j)//?>=
+                if(leftIterator>=rightIterator)//?>=
                 {
                     break;
                 }
 
-                swap(i, j);
-                i++;
-                j--;
+                swap(leftIterator, rightIterator);
+                leftIterator++;
+                rightIterator--;
             }
-            swap(low,j);
-            return i;
+            swap(low,rightIterator);
+            return leftIterator;
         }
 
         public void Sort(int[] a, int low, int high)

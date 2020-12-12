@@ -13,12 +13,6 @@ namespace ProductivityTools.Learning.Google.ShortestPaths.Graph
 
     class PriorityQuene : List<Cost>
     {
-        private readonly int Max;
-
-        public PriorityQuene(int max)
-        {
-            this.Max = max;
-        }
 
         public int RemoveMin()
         {
@@ -42,7 +36,7 @@ namespace ProductivityTools.Learning.Google.ShortestPaths.Graph
             return x;
         }
 
-        public void DecreaseKey(int toVertex, double value)
+        public void DecreaseValueForKey(int toVertex, double value)
         {
             var key = this.Single(x => x.ToVertex == toVertex);
             key.Weight = value;

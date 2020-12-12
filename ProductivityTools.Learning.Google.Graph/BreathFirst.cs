@@ -14,27 +14,27 @@ namespace ProductivityTools.Learning.Google.Graph
         public BreathFirst(UndirectedGraph g)
         {
             this.Graph = g;
-            from = new int[g.adj.Length];
-            visited = new bool[g.adj.Length];
-
+            from = new int[g.Edges.Length];
+            visited = new bool[g.Edges.Length];
+            int startVertex = 0;
+            BreathFirstStep(startVertex);
         }
 
-        public void BreathFirstStep()
+        public void BreathFirstStep(int node)
         {
-            int node = 0;
             this.visited[node] = true;
             this.from[node] = 0;
             this.Queue.Enqueue(node);
             while(this.Queue.Count>0)
             {
-                int v = this.Queue.Dequeue();
-                foreach (int item in this.Graph.adj[v])
+                int vertex = this.Queue.Dequeue();
+                foreach (int item in this.Graph.Edges[vertex])
                 {
                     if(this.visited[item]==false)
                     {
                         this.Queue.Enqueue(item);
                         this.visited[item] = true;
-                        this.from[item] = v;
+                        this.from[item] = vertex;
                     }
                 }
             }

@@ -16,13 +16,14 @@ namespace ProductivityTools.Learning.Google.ShortestPaths.Graph
         {
             this.edgeTo = new DirectedEdge[edgeWeigthDigrapth.Size];
             this.distTo = new double[edgeWeigthDigrapth.Size];
-            this.priorityQuene = new PriorityQuene(edgeWeigthDigrapth.Size);
+            this.priorityQuene = new PriorityQuene();
 
 
             for (int i = 0; i < edgeWeigthDigrapth.Size; i++)
             {
                 distTo[i] = double.PositiveInfinity;
             }
+
             distTo[start] = 0;
             this.priorityQuene.Insert(start, 0);
             while (priorityQuene.Count > 0)
@@ -44,7 +45,7 @@ namespace ProductivityTools.Learning.Google.ShortestPaths.Graph
                 edgeTo[to] = edge;
                 if (this.priorityQuene.ContainsTo(to))
                 {
-                    priorityQuene.DecreaseKey(to, distTo[to]);
+                    priorityQuene.DecreaseValueForKey(to, distTo[to]);
                 }
                 else
                 {
