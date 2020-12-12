@@ -33,7 +33,7 @@ namespace ProductivityTools.Learning.Google.Graph
 
             foreach (int connection in connections)
             {
-                if (marked[connection] = false)
+                if (marked[connection] == false)
                 {
                     marked[connection] = true;
                     edgeTo[connection] = from;
