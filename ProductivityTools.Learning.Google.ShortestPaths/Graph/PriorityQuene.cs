@@ -14,7 +14,7 @@ namespace ProductivityTools.Learning.Google.ShortestPaths.Graph
     class PriorityQuene : List<Cost>
     {
 
-        public int RemoveMin()
+        public int GetSmallestEdgeWeight()
         {
             var min = double.MaxValue;
             Cost mintitem = null;

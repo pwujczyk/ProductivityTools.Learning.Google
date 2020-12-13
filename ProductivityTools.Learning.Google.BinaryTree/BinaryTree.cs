@@ -26,7 +26,7 @@ namespace ProductivityTools.Learning.Google.BinaryTree
             this.Tree[f] = 1;
 
             //ChangeNode(f, 10);
-            ChangeNode2(1, 3);
+            SinkNode(1, 3);
         }
 
         private void Swap(int a, int b)
@@ -78,13 +78,13 @@ namespace ProductivityTools.Learning.Google.BinaryTree
             }
         }
 
-        public void ChangeNode(int node, int value)
+        public void SwimNode(int node, int value)
         {
             this.Tree[node] = value;
             Swim(node);
         }
 
-        public void ChangeNode2(int node, int value)
+        public void SinkNode(int node, int value)
         {
             this.Tree[node] = value;
             Sink(node);
