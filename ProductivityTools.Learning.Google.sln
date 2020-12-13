@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.BinaryTree", "ProductivityTools.Learning.Google.BinaryTree\ProductivityTools.Learning.Google.BinaryTree.csproj", "{49A91B7B-502A-48A0-BF65-BDD8051D204A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.Kruskal", "ProductivityTools.Learning.Google.Kruskal\ProductivityTools.Learning.Google.Kruskal.csproj", "{6088AC1B-1C95-453F-8CA1-D8B9FF4F032C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{49A91B7B-502A-48A0-BF65-BDD8051D204A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49A91B7B-502A-48A0-BF65-BDD8051D204A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49A91B7B-502A-48A0-BF65-BDD8051D204A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6088AC1B-1C95-453F-8CA1-D8B9FF4F032C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6088AC1B-1C95-453F-8CA1-D8B9FF4F032C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6088AC1B-1C95-453F-8CA1-D8B9FF4F032C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6088AC1B-1C95-453F-8CA1-D8B9FF4F032C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
