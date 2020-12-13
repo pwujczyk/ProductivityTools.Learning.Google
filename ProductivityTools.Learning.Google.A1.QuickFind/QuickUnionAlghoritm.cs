@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ProductivityTools.Learning.Google.A1.QuickFind
 {
-    class QuickUnionAlghoritm:Base
+    public class QuickUnionAlghoritm:Base
     {
         public QuickUnionAlghoritm(int n) : base(n) { }
 

@@ -10,7 +10,6 @@ namespace ProductivityTools.Learning.Google.A1.Sort
     {
         public void Sort(int[] a)
         {
-            
             int minposition = 0;
             bool swaped = true;
             while (swaped)
@@ -24,7 +23,6 @@ namespace ProductivityTools.Learning.Google.A1.Sort
                         int temp = a[minposition];
                         a[minposition] = a[i];
                         a[i] = temp;
-
                     }
                 }
                 minposition++; 

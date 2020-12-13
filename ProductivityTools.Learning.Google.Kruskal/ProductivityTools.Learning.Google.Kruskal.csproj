@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProductivityTools.Learning.Google.A1.QuickFind\ProductivityTools.Learning.Google.A1.QuickFind.csproj" />
+  </ItemGroup>
+
 </Project>

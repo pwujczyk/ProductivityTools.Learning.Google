@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ProductivityTools.Learning.Google.A1.QuickFind
 {
-    abstract class  Base
+    public abstract class  Base
     {
         protected int[] table;
 
