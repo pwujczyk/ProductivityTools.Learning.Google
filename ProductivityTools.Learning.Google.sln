@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.Kruskal", "ProductivityTools.Learning.Google.Kruskal\ProductivityTools.Learning.Google.Kruskal.csproj", "{6088AC1B-1C95-453F-8CA1-D8B9FF4F032C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.Prim", "ProductivityTools.Learning.Google.Prim\ProductivityTools.Learning.Google.Prim.csproj", "{D3B4B483-AD7D-4913-A903-79700F9F132D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{6088AC1B-1C95-453F-8CA1-D8B9FF4F032C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6088AC1B-1C95-453F-8CA1-D8B9FF4F032C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6088AC1B-1C95-453F-8CA1-D8B9FF4F032C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B4B483-AD7D-4913-A903-79700F9F132D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B4B483-AD7D-4913-A903-79700F9F132D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B4B483-AD7D-4913-A903-79700F9F132D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B4B483-AD7D-4913-A903-79700F9F132D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
