@@ -25,11 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.Google.ShortestPaths", "ProductivityTools.Learning.Google.ShortestPaths\ProductivityTools.Learning.Google.ShortestPaths.csproj", "{EF1FCA02-65A1-452F-8644-63A83DECEB80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.BinaryTree", "ProductivityTools.Learning.Google.BinaryTree\ProductivityTools.Learning.Google.BinaryTree.csproj", "{49A91B7B-502A-48A0-BF65-BDD8051D204A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.Google.BinaryTree", "ProductivityTools.Learning.Google.BinaryTree\ProductivityTools.Learning.Google.BinaryTree.csproj", "{49A91B7B-502A-48A0-BF65-BDD8051D204A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.Kruskal", "ProductivityTools.Learning.Google.Kruskal\ProductivityTools.Learning.Google.Kruskal.csproj", "{6088AC1B-1C95-453F-8CA1-D8B9FF4F032C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.Google.Kruskal", "ProductivityTools.Learning.Google.Kruskal\ProductivityTools.Learning.Google.Kruskal.csproj", "{6088AC1B-1C95-453F-8CA1-D8B9FF4F032C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.Prim", "ProductivityTools.Learning.Google.Prim\ProductivityTools.Learning.Google.Prim.csproj", "{D3B4B483-AD7D-4913-A903-79700F9F132D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.Google.Prim", "ProductivityTools.Learning.Google.Prim\ProductivityTools.Learning.Google.Prim.csproj", "{D3B4B483-AD7D-4913-A903-79700F9F132D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.CodingTasks", "ProductivityTools.Learning.Google.CodingTasks\ProductivityTools.Learning.Google.CodingTasks.csproj", "{A74CE2D6-A553-47C0-8D0C-42653B14F278}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{D3B4B483-AD7D-4913-A903-79700F9F132D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3B4B483-AD7D-4913-A903-79700F9F132D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3B4B483-AD7D-4913-A903-79700F9F132D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A74CE2D6-A553-47C0-8D0C-42653B14F278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74CE2D6-A553-47C0-8D0C-42653B14F278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74CE2D6-A553-47C0-8D0C-42653B14F278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74CE2D6-A553-47C0-8D0C-42653B14F278}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

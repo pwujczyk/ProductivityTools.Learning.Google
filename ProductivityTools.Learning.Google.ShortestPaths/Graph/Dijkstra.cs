@@ -28,7 +28,7 @@ namespace ProductivityTools.Learning.Google.ShortestPaths.Graph
             this.priorityQuene.Insert(start, 0);
             while (priorityQuene.Count > 0)
             {
-                int v = priorityQuene.GetSmallestEdgeWeight();
+                int v = priorityQuene.GetSmallestToVertexWeight();
                 foreach (DirectedEdge edge in edgeWeigthDigrapth.Vertexes[v])
                 {
                     Relax(edge);

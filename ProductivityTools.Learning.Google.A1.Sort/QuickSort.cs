@@ -16,14 +16,8 @@ namespace ProductivityTools.Learning.Google.A1.Sort
                    a[x] = a[y];
                    a[y] = temp;
                };
-            //324243242
-            //012___345
-            //xxx<3<xxx
 
-            //32424324
-            //low=0;high=8
-
-            int partitionPoint = low;//partition point//3
+            int partitionPoint = low;
             int leftIterator = low + 1;
             int rightIterator = high;
 
@@ -41,7 +35,7 @@ namespace ProductivityTools.Learning.Google.A1.Sort
                     if (leftIterator == low) break;
                 }
 
-                if(leftIterator>=rightIterator)//?>=
+                if(leftIterator>=rightIterator)
                 {
                     break;
                 }
