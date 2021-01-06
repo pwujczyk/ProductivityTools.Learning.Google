@@ -13,6 +13,7 @@ namespace ProductivityTools.Learning.Google.CodingTasks
 
         public static void Main()
         {
+            SubarrayWithSumNonNegative.Do();
             SubArrayWithNegativeSum.Do();
             SmallestPositiveInteger.Do();
             CommonAncestor.Do();

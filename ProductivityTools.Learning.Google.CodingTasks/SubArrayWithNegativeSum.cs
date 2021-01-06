@@ -8,7 +8,6 @@ namespace ProductivityTools.Learning.Google.CodingTasks
     //https://www.geeksforgeeks.org/find-subarray-with-given-sum-in-array-of-integers/
     class SubArrayWithNegativeSum
     {
-
         private static void FindSubArray(int[] array, int expectedNumber)
         {
             Dictionary<int, int> hs = new Dictionary<int, int>();
@@ -23,7 +22,6 @@ namespace ProductivityTools.Learning.Google.CodingTasks
                     Console.WriteLine("found");
                 }
                 hs.Add(currentSum, i);
-
             }
         }
 
