@@ -1,4 +1,5 @@
-﻿using ProductivityTools.Learning.Google.CodingTasks.S;
+﻿using ProductivityTools.Learning.Google.CodingTasks.q;
+using ProductivityTools.Learning.Google.CodingTasks.S;
 using System;
 
 namespace ProductivityTools.Learning.Google.CodingTasks
@@ -8,6 +9,8 @@ namespace ProductivityTools.Learning.Google.CodingTasks
 
         public static void Main()
         {
+            SumToGivenValue.Do();
+            Rectangle.Do();
             Parentheses.Do();
             JumpingNumbers.Do();
             FindTripplets.Do();
