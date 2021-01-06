@@ -21,8 +21,7 @@ namespace ProductivityTools.Learning.Google.CodingTasks.S
 
         // This function returns empty string if tree 
         // contains a duplicate subtree of size 2 or more. 
-        public static String dupSubUtil(Node root,
-                        HashSet<String> subtrees)
+        public static String dupSubUtil(Node root, HashSet<String> subtrees)
         {
             String s = "";
 

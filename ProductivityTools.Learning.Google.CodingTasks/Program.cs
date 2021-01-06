@@ -8,6 +8,7 @@ namespace ProductivityTools.Learning.Google.CodingTasks
 
         public static void Main()
         {
+            FindTripplets.Do();
             SubTree.Do();
             NumberOfIntInArray.Do();
             MinimumArrayOfSumGreater.Do();
