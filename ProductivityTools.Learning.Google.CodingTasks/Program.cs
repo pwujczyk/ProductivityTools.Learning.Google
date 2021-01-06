@@ -13,6 +13,7 @@ namespace ProductivityTools.Learning.Google.CodingTasks
 
         public static void Main()
         {
+            SubArrayWithNegativeSum.Do();
             SmallestPositiveInteger.Do();
             CommonAncestor.Do();
             BinaryTreeIsBST.Do();
@@ -28,7 +29,7 @@ namespace ProductivityTools.Learning.Google.CodingTasks
             MinimumArrayOfSumGreater.Do();
             ReplaceNumbers.Do();
             SubArrayWithSum.Do();
-            Smallest.Do();
+            SmallestPositiveInteger.Do();
         }
        
     }
