@@ -7,6 +7,7 @@ namespace ProductivityTools.Learning.Google.CodingTasks
 
         public static void Main()
         {
+            MinimumArrayOfSumGreater.Do();
             ReplaceNumbers.Do();
             SubArrayWithSum.Do();
             Smallest.Do();
