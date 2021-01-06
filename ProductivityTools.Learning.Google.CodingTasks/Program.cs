@@ -8,6 +8,8 @@ namespace ProductivityTools.Learning.Google.CodingTasks
 
         public static void Main()
         {
+            Parentheses.Do();
+            JumpingNumbers.Do();
             FindTripplets.Do();
             SubTree.Do();
             NumberOfIntInArray.Do();
