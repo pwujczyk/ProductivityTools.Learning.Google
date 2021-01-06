@@ -4,7 +4,8 @@ using System.Text;
 
 namespace ProductivityTools.Learning.Google.CodingTasks
 {
-    public static class Smallest
+    //https://www.geeksforgeeks.org/find-smallest-value-represented-sum-subset-given-array/
+    public static class SmallestPositiveInteger
     {
 
         static int findSmallest(int[] arr)
