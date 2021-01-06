@@ -13,6 +13,7 @@ namespace ProductivityTools.Learning.Google.CodingTasks
 
         public static void Main()
         {
+            LongestValidSubstring.Do();
             SizeOfSubarrayWithMaximumSum.Do();
             SubarrayWithSumNonNegative.Do();
             SubArrayWithNegativeSum.Do();
