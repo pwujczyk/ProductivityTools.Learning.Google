@@ -6,40 +6,40 @@ namespace ProductivityTools.Learning.Google.CodingTasks
 {
     class JumpingNumbers
     {
-        public void bfs(int x, int num)
+        public void bfs(int maxNumber, int iterator)
         {
             // Create a queue and enqueue 'i' to it 
             Queue<int> q = new Queue<int>();
-            q.Enqueue(num);
+            q.Enqueue(iterator);
 
             // Do BFS starting from i 
             while (q.Count != 0)
             {
-                num = q.Peek();
+                iterator = q.Peek();
                 q.Dequeue();
-                if (num <= x)
+                if (iterator <= maxNumber)
                 {
-                    Console.Write(num + " ");
-                    int last_digit = num % 10;
+                    Console.Write(iterator + " ");
+                    int last_digit = iterator % 10;
 
                     // If last digit is 0, append next digit only 
                     if (last_digit == 0)
                     {
-                        q.Enqueue((num * 10) + (last_digit + 1));
+                        q.Enqueue((iterator * 10) + (last_digit + 1));
                     }
 
                     // If last digit is 9, append previous digit only 
                     else if (last_digit == 9)
                     {
-                        q.Enqueue((num * 10) + (last_digit - 1));
+                        q.Enqueue((iterator * 10) + (last_digit - 1));
                     }
 
                     // If last digit is neighter 0 nor 9, append both 
                     // previous and next digits 
                     else
                     {
-                        q.Enqueue((num * 10) + (last_digit - 1));
-                        q.Enqueue((num * 10) + (last_digit + 1));
+                        q.Enqueue((iterator * 10) + (last_digit - 1));
+                        q.Enqueue((iterator * 10) + (last_digit + 1));
                     }
                 }
             }

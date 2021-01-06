@@ -4,6 +4,7 @@ using ProductivityTools.Learning.Google.CodingTasks.d;
 using ProductivityTools.Learning.Google.CodingTasks.e;
 using ProductivityTools.Learning.Google.CodingTasks.q;
 using ProductivityTools.Learning.Google.CodingTasks.S;
+using ProductivityTools.Learning.Google.CodingTasks.f;
 using System;
 
 namespace ProductivityTools.Learning.Google.CodingTasks
@@ -13,6 +14,8 @@ namespace ProductivityTools.Learning.Google.CodingTasks
 
         public static void Main()
         {
+            ConnectNodesAtTheSameLevel.Do();
+            JumpingNumbers.Do();
             LongestValidSubstring.Do();
             SizeOfSubarrayWithMaximumSum.Do();
             SubarrayWithSumNonNegative.Do();
@@ -25,7 +28,7 @@ namespace ProductivityTools.Learning.Google.CodingTasks
             SumToGivenValue.Do();
             Rectangle.Do();
             Parentheses.Do();
-            JumpingNumbers.Do();
+            
             FindTripplets.Do();
             SubTree.Do();
             NumberOfIntInArray.Do();
