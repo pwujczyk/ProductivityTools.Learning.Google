@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace ProductivityTools.Learning.Google.CodingTasks
 {
+    //https://www.geeksforgeeks.org/minimum-length-subarray-sum-greater-given-value/?ref=lbp
     public static class MinimumArrayOfSumGreater
     {
         static int smallestSubWithSumNaive(int[] arr, int x)
@@ -16,10 +19,10 @@ namespace ProductivityTools.Learning.Google.CodingTasks
                 for (int j = i; j < arr.Length; j++)
                 {
                     sum += arr[j];
-                    if(sum>x)
+                    if (sum > x)
                     {
-                        int localMinimumArray = j - i+1;
-                        if(localMinimumArray<minimumarray)
+                        int localMinimumArray = j - i + 1;
+                        if (localMinimumArray < minimumarray)
                         {
                             minimumarray = localMinimumArray;
                         }
@@ -57,14 +60,42 @@ namespace ProductivityTools.Learning.Google.CodingTasks
             return min_len;
         }
 
+        static int smallestSubWithSum2(int[] arr, int x)
+        {
+            int currentSum = 0;
+            int rightIterator = 0;
+            int leftIterator = 0;
+            int minimumLength = int.MaxValue;
+            while (rightIterator < arr.Length)
+            {
+                while (currentSum < x && rightIterator < arr.Length)
+                {
+                    currentSum += arr[rightIterator++];
+                }
+
+                int currentLength = rightIterator - leftIterator;
+                if (currentLength < minimumLength)
+                {
+                    minimumLength = currentLength;
+                }
+
+                while(currentSum>=x)
+                {
+                    currentSum -= arr[leftIterator++];
+                }
+            }
+            return minimumLength;
+        }
+
 
         public static void Do()
         {
-            int[] arr1 = {1, 4, 45,6, 10, 19};
+            int[] arr1 = { 1, 4, 45, 6, 10, 19 };
             int x = 51;
             int n1 = arr1.Length;
-            int res1 = smallestSubWithSum(arr1,x);
+            int res1 = smallestSubWithSum(arr1, x);
             int res1p = smallestSubWithSumNaive(arr1, x);
+            int res1p2 = smallestSubWithSum2(arr1, x);
             if (res1 == n1 + 1)
                 Console.WriteLine("Not Possible");
             else
