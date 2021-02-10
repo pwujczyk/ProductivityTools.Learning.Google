@@ -8,8 +8,7 @@ namespace ProductivityTools.Learning.Google.CodingTasks
     {
         public static int findMaxLen(string str)
         {
-            int n = str.Length;
-
+   
             // Create a stack and push -1 as 
             // initial index to it. 
             Stack<int> stk = new Stack<int>();
@@ -20,7 +19,7 @@ namespace ProductivityTools.Learning.Google.CodingTasks
 
             // Traverse all characters of 
             // given string 
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < str.Length; i++)
             {
                 // If opening bracket, push 
                 // index of it 

@@ -64,14 +64,14 @@ namespace ProductivityTools.Learning.Google.CodingTasks.S
         // Driver code 
         public static void Do()
         {
-            Node root = new Node('A');
-            root.left = new Node('B');
-            root.right = new Node('C');
-            root.left.left = new Node('D');
-            root.left.right = new Node('E');
-            root.right.right = new Node('B');
-            root.right.right.right = new Node('E');
-            root.right.right.left = new Node('D');
+            Node root = new Node(1);
+            root.left = new Node(2);
+            root.right = new Node(3);
+            root.left.left = new Node(4);
+            root.left.right = new Node(5);
+            root.right.right = new Node(6);
+            root.right.right.right = new Node(7);
+            root.right.right.left = new Node(8);
             String str = dupSub(root);
             if (str.Equals(""))
                 Console.Write(" Yes ");

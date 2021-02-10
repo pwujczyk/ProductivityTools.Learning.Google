@@ -91,7 +91,6 @@ namespace ProductivityTools.Learning.Google.CodingTasks.f
             Console.WriteLine("nextRight of " + tree.root.left.left.data + " is "
                             + d);
 
-            Console.ReadKey();
         }
     }
 }

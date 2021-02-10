@@ -14,6 +14,7 @@ namespace ProductivityTools.Learning.Google.CodingTasks
 
         public static void Main()
         {
+            TrippleSum.Do();
             ConnectNodesAtTheSameLevel.Do();
             JumpingNumbers.Do();
             LongestValidSubstring.Do();
