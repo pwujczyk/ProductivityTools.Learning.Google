@@ -10,6 +10,7 @@ Action printArray = () =>
     {
         Console.Write(item);
     }
+    Console.WriteLine();
 };
 
 
@@ -18,6 +19,7 @@ for (int i = 0; i < 10; i++)
     array[i] = new Random().Next(10);
 }
 printArray();
+
 
 new QuickSort().Sort(array);
 printArray();

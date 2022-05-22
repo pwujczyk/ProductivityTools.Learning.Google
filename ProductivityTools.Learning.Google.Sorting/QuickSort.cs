@@ -9,7 +9,7 @@ namespace ProductivityTools.Learning.Google.Sorting
     internal class QuickSort
     {
 
-        private int Sort(int[] array, int low, int high)
+        private int Partition(int[] array, int low, int high)
         {
             Action<int, int> swap = (x, y) =>
             {
@@ -19,7 +19,7 @@ namespace ProductivityTools.Learning.Google.Sorting
             };
 
             int partitionPoint = low;
-            int leftIterator = low+1;
+            int leftIterator = low + 1;
             int rightIterator = high;
 
             while (leftIterator < rightIterator)
@@ -27,33 +27,33 @@ namespace ProductivityTools.Learning.Google.Sorting
                 while (array[leftIterator] < array[partitionPoint])
                 {
                     leftIterator++;
-                    if (leftIterator >= high) break;
+                    if (high <= leftIterator) break;
                 }
                 while (array[partitionPoint] < array[rightIterator])
                 {
                     rightIterator--;
-                    if (rightIterator == low) break;
+                    if (rightIterator <= low) break;
                 }
                 swap(leftIterator, rightIterator);
                 leftIterator++;
                 rightIterator--;
             }
-            swap(rightIterator, partitionPoint);
+            swap(low, partitionPoint);
             return rightIterator;
         }
 
-        private void Sort1(int[] array, int low, int high)
+        private void Sort(int[] array, int low, int high)
         {
-            if (low >= high) return;
-            int partitionPoint = Sort(array, low, high);
-            Sort1(array, 0, partitionPoint-1);
-            Sort1(array, partitionPoint+1, high);
+            if (low >= high) { return; }
+            int partitionPoint = Partition(array, low, high);
+            Sort(array, 0, partitionPoint - 1);
+            Sort(array, partitionPoint + 1, high);
         }
 
 
         public void Sort(int[] array)
         {
-            Sort1(array, 0, array.Length - 1);
+            Sort(array, 0, array.Length - 1);
         }
     }
 }
