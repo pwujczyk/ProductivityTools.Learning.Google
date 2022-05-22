@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30002.166
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.Google.SumOfArrayElements", "ProductivityTools.Learning.Google.SumOfArrayElements\ProductivityTools.Learning.Google.SumOfArrayElements.csproj", "{358AF8AA-2E46-451D-B615-42AF6B3FF46B}"
 EndProject
@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.Google.Prim", "ProductivityTools.Learning.Google.Prim\ProductivityTools.Learning.Google.Prim.csproj", "{D3B4B483-AD7D-4913-A903-79700F9F132D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.CodingTasks", "ProductivityTools.Learning.Google.CodingTasks\ProductivityTools.Learning.Google.CodingTasks.csproj", "{A74CE2D6-A553-47C0-8D0C-42653B14F278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Learning.Google.CodingTasks", "ProductivityTools.Learning.Google.CodingTasks\ProductivityTools.Learning.Google.CodingTasks.csproj", "{A74CE2D6-A553-47C0-8D0C-42653B14F278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.Learning.Google.Sorting", "ProductivityTools.Learning.Google.Sorting\ProductivityTools.Learning.Google.Sorting.csproj", "{6EE54BA6-13B9-44B2-A5F6-CD63D44DC52E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{A74CE2D6-A553-47C0-8D0C-42653B14F278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A74CE2D6-A553-47C0-8D0C-42653B14F278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A74CE2D6-A553-47C0-8D0C-42653B14F278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE54BA6-13B9-44B2-A5F6-CD63D44DC52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE54BA6-13B9-44B2-A5F6-CD63D44DC52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE54BA6-13B9-44B2-A5F6-CD63D44DC52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE54BA6-13B9-44B2-A5F6-CD63D44DC52E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

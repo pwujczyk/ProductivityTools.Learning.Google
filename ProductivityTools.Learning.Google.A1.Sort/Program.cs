@@ -29,8 +29,8 @@ namespace ProductivityTools.Learning.Google.A1.Sort
             //SortAndPrint(GetTableCopy(table), new SelectionSort(), nameof(SelectionSort), printTable);
             //SortAndPrint(GetTableCopy(table), new InsertionSort(), nameof(InsertionSort), printTable);
             //SortAndPrint(GetTableCopy(table), new ShellSort(), nameof(ShellSort),printTable);
-            SortAndPrint(GetTableCopy(table), new MergeSort(), nameof(MergeSort), printTable);
-          //  SortAndPrint(GetTableCopy(table), new QuickSort(), nameof(QuickSort), printTable);
+            //SortAndPrint(GetTableCopy(table), new MergeSort(), nameof(MergeSort), printTable);
+            SortAndPrint(GetTableCopy(table), new QuickSort(), nameof(QuickSort), printTable);
             Console.Read();
         }
 
