@@ -19,7 +19,7 @@ namespace ProductivityTools.Learning.Google.Sorting
             };
 
             int partitionPoint = low;
-            int leftIterator = low + 1;
+            int leftIterator = low;
             int rightIterator = high;
 
             while (leftIterator < rightIterator)
@@ -34,12 +34,16 @@ namespace ProductivityTools.Learning.Google.Sorting
                     rightIterator--;
                     if (rightIterator <= low) break;
                 }
-                swap(leftIterator, rightIterator);
+                //without it 01234 won't work, so whenwe will have leftiterator=0 and right iterator=0
+                if (leftIterator < rightIterator)
+                {
+                    swap(leftIterator, rightIterator);
+                }
                 leftIterator++;
                 rightIterator--;
             }
             swap(low, partitionPoint);
-            return rightIterator;
+            return leftIterator;
         }
 
         private void Sort(int[] array, int low, int high)
