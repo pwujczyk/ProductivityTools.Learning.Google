@@ -18,6 +18,8 @@ testArrays[0] = new int[5];
 testArrays[0] = new int[5] { 0, 1, 2, 3, 4 };
 testArrays[1] = new int[5];
 testArrays[1] = new int[5] { 4, 3, 2, 1, 0 };
+testArrays[1] = new int[5];
+testArrays[1] = new int[5] { 2, 3, 3, 0, 0 };
 
 Action<int[]> performTest = (array) =>
 {
@@ -36,3 +38,4 @@ Action performTests = () =>
 };
 
 performTests();
+//performTest(testArrays[1]);
