@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProductivityTools.Learning.Google.Sorting
 {
-    internal class QuickSort
+    internal class QuickSort :ISort
     {
         //https://code-maze.com/csharp-quicksort-algorithm/
         private void Sort(int[] array, int low, int high)
@@ -41,6 +41,7 @@ namespace ProductivityTools.Learning.Google.Sorting
                 }
                
             }
+            Printer.Print(array);
             if (low < rightIterator)
                 Sort(array, low, rightIterator);
             if (leftIterator < high)
